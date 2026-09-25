@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/EON-Extensible-Open-Network/.github/blob/main/SECURITY.md
+    about: Never report security issues publicly. Use private reporting.
+  - name: Copyright or content complaint
+    url: https://github.com/EON-Extensible-Open-Network/eon-docs/blob/main/policies/README.md
+    about: Takedown requests go through the notice process, not the issue tracker.
+  - name: Question or idea
+    url: https://github.com/orgs/EON-Extensible-Open-Network/discussions
+    about: Open-ended questions and proposals belong in Discussions.
+  - name: Proposal that changes a project decision
+    url: https://github.com/EON-Extensible-Open-Network/eon-docs/issues/new
+    about: Architecture, scope, legal or policy changes are raised against the plan.

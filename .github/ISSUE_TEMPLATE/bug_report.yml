@@ -1,0 +1,60 @@
+name: Bug report
+description: Something behaves differently from how it is documented or intended.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        EON Stream is in Faz 0 and has no release yet. Bugs against `main` are welcome;
+        please say which commit you are on.
+
+        **Do not report security issues here** — see SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: "main @ a1b2c3d, or v0.1.0"
+    validations: {required: true}
+  - type: dropdown
+    id: build
+    attributes:
+      label: Which build
+      options: ["EON Stream (desktop)", "EON Edu", "Built from source", "Not applicable"]
+    validations: {required: true}
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11 26200 / Fedora 41 (Wayland) / macOS 15.2"
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations: {required: true}
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log output. Redact addon URLs and anything personal first.
+      render: text
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues
+          required: true
+        - label: This is not a security issue (those go through SECURITY.md)
+          required: true
+        - label: This report contains no request for infringing content sources
+          required: true

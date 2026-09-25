@@ -1,0 +1,44 @@
+name: Feature request
+description: Propose a capability that does not exist yet.
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the plan first (`eon-docs/plan/eon-plan.md`). It has a
+        **non-goals** list (madde 41) and a phase plan — your idea may be deliberately
+        out of scope, or already scheduled for a later phase.
+
+        If your proposal changes an existing decision, open it against `eon-docs`
+        as `madde N: ...` instead of here.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What can someone not do today? Describe the situation, not the solution.
+    validations: {required: true}
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations: {required: true}
+  - type: textarea
+    id: cost
+    attributes:
+      label: What it costs
+      description: >
+        Required. Maintenance burden, attack surface, new dependency, complexity for
+        users, legal exposure. A proposal with no stated downside has not been thought
+        through.
+    validations: {required: true}
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Which build does this belong to
+      options: ["EON Stream only", "EON Edu only", "Both (core)", "Not sure"]
+    validations: {required: true}
+  - type: input
+    id: plan
+    attributes:
+      label: Related plan item, if you know it
+      placeholder: "madde 16b"
