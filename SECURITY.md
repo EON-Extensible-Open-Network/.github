@@ -30,7 +30,7 @@ that data (madde 29, Rol C) and may have its own statutory notification deadline
 | Fix or documented mitigation for high-severity issues | 30 days |
 | Coordinated public disclosure | 90 days, or sooner once a fix ships |
 
-These are targets, not contractual guarantees. EON Stream is a small, non-commercial project
+These are targets, not contractual guarantees. EON is a small, non-commercial project
 and says so honestly rather than promising an enterprise SLA it cannot staff. If a
 deadline will slip, you will be told before it slips, not after.
 

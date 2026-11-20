@@ -1,6 +1,6 @@
 # Governance
 
-EON Stream is open source and non-profit. This file says who decides what, so that the answer
+EON is open source and non-profit. This file says who decides what, so that the answer
 is written down before it is contested rather than after.
 
 **Current state, stated plainly:** the project has a single maintainer and no legal

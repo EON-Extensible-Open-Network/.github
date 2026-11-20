@@ -24,7 +24,8 @@ name everything else hangs from unguarded, which is the opposite of useful.
 
 This is not brand vanity. It closes a specific hole that the GPL leaves open.
 
-The two products deliberately share one umbrella and one core (madde 32): the same package
+Every EON product shares the umbrella, and EON Stream and EON Edu deliberately share one core
+(madde 32, 45): the same package
 format, the same addon API, the same viewer. A student downloads material at school and opens
 it at home with the same engine; a teacher learns one creator tool. That shared identity is the
 point — and it means the reputation is shared too. A public institution evaluating EON Edu will

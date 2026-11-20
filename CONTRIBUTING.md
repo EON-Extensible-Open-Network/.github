@@ -8,10 +8,12 @@ project-specific rule about infringing content that is not optional.
 
 ## Project status
 
-EON Stream is in **Faz 0** — foundations and risk reduction. There is no usable release yet.
-The contracts in [`eon-stream-spec`](https://github.com/EON-Extensible-Open-Network/eon-stream-spec) are at `v0` and
-**explicitly unstable**: they will break without a migration path until `v1`. If you are
-building something on top of EON Stream today, expect to rewrite it.
+EON is several products, each with its own repositories (plan madde 45), and all of them are
+in **alpha**. Every contract — [`eon-stream-spec`](https://github.com/EON-Extensible-Open-Network/eon-stream-spec),
+[`eon-office-spec`](https://github.com/EON-Extensible-Open-Network/eon-office-spec),
+[`eon-download-manager-spec`](https://github.com/EON-Extensible-Open-Network/eon-download-manager-spec) — is at `v0`
+and **explicitly unstable**: it will break without a migration path until `v1`. If you are
+building something on top of EON today, expect to rewrite it.
 
 The authoritative roadmap is the project plan in
 [`eon-docs`](https://github.com/EON-Extensible-Open-Network/eon-docs). Numbered decisions in it (madde 1,
